@@ -36,6 +36,13 @@ public class Flowers {
         }
     }
 
+    void trasplantPlant(){
+        flowerWatered = false;
+        flowerSize = "Medium";
+        flowerAge+=10;
+        flowerTransplanted = true;
+    }
+
     void printInformation() {
         System.out.println("Flower name: " + flowerName);
         System.out.println("Color: " + flowerColor);

@@ -10,7 +10,8 @@ public class Main {
         Aglaonema.waterPlant();
         Aglaonema.printInformation();
 
-        Aglaonema.waterPlant();
+//        Aglaonema.waterPlant();
+        Aglaonema.trasplantPlant();
         Aglaonema.printInformation();
 
 
